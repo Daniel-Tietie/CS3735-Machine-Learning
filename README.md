@@ -63,7 +63,7 @@ Each assignment folder contains:
 - Working with various datasets
 
 ## Future Enhancements
-As I continue with the course, I plan to add implementations of:
+I plan to add implementations of:
 - Bayesian learning approaches
 - Unsupervised learning algorithms
 - Deep learning techniques
