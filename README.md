@@ -1,6 +1,6 @@
 # CS3735: Introduction to Machine Learning
 
-This repository contains my implementations and experiments for CS3735: Introduction to Machine Learning at the University of New Brunswick (Winter 2025).
+This repository contains my implementations and experiments for CS3735: Introduction to Machine Learning at the University of New Brunswick (Winter 2024).
 
 ## Course Overview
 This course covers the principles and algorithms of machine learning, including both traditional ML approaches and deep learning techniques. Throughout the semester, I've implemented various algorithms from scratch and applied existing libraries to solve classification and regression problems on real-world datasets.
