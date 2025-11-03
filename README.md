@@ -1,69 +1,121 @@
 # CS3735: Introduction to Machine Learning
 
-This repository contains my implementations and experiments for CS3735: Introduction to Machine Learning at the University of New Brunswick (Winter 2024).
+**Winter 2024 | University of New Brunswick**
+
+## About This Repository
+
+This repository contains coursework and projects from CS3735 - Introduction to Machine Learning. Each assignment demonstrates implementation and application of core machine learning algorithms, combining both library-based approaches and from-scratch implementations to deepen understanding of the underlying mathematics and techniques.
 
 ## Course Overview
-This course covers the principles and algorithms of machine learning, including both traditional ML approaches and deep learning techniques. Throughout the semester, I've implemented various algorithms from scratch and applied existing libraries to solve classification and regression problems on real-world datasets.
 
-## Topics Covered
-- **Supervised Learning**
-  - Linear and Logistic Regression
-  - Decision Trees and Random Forests
-  - Artificial Neural Networks (ANNs)
-  - Support Vector Machines
-  
-- **Deep Learning**
-  - Multilayer Perceptrons
-  - Hyperparameter Tuning
-  - Activation Functions and Optimizers
-  
-- **Other Topics**
-  - Data Preprocessing
-  - Model Evaluation
-  - Feature Engineering
+CS3735 provides a comprehensive introduction to machine learning, covering both traditional ML methods and modern deep learning techniques. The course emphasizes hands-on implementation and practical application of algorithms to real-world datasets.
 
-## Assignment Structure
-Each assignment folder contains:
-- Custom implementations of ML algorithms
-- Application of scikit-learn and other libraries
-- Experimental results and analysis
-- Data preprocessing techniques
+### Topics Covered
+
+**Traditional Machine Learning:**
+- Linear and Logistic Regression
+- Decision Trees and Random Forests
+- Support Vector Machines (SVMs)
+- Naive Bayes Classifiers
+- K-Nearest Neighbors (KNN)
+- Ensemble Learning Methods
+
+**Deep Learning:**
+- Deep Neural Networks
+- Convolutional Neural Networks (CNNs)
+- Recurrent Neural Networks (RNNs)
+- Transformers
+- Generative Models
+
+**Core Concepts:**
+- Supervised and Unsupervised Learning
+- Feature Engineering and Selection
+- Model Evaluation and Validation
+- Hyperparameter Tuning
+- Gradient Descent Optimization
+- Regularization Techniques
 
 ## Assignments
 
-### [Assignment 1: Regression Models](./Assignment1/)
-- Implemented Linear Regression from scratch
-- Implemented Logistic Regression from scratch
-- Applied both algorithms to real-world datasets
-- Compared custom implementations with scikit-learn
+### [Assignment 1: Linear and Logistic Regression](./assignment-1/)
+Implementation of linear and logistic regression using both scikit-learn and custom gradient descent algorithms.
 
-### [Assignment 2: Tree-Based Methods](./Assignment2/)
-- Applied Decision Tree and Random Forest classifiers
-- Implemented Random Forest algorithm from scratch
-- Analyzed model performance on Letter Recognition dataset
+**Key Concepts:** Gradient descent, feature normalization, one-vs-rest classification, hyperparameter tuning
 
-### [Assignment 3: Neural Networks](./Assignment3/)
-- Experimented with different neural network architectures
-- Tested various hyperparameters, activation functions, and optimizers
-- Applied neural networks to classification problems
+**Results:** Custom implementations achieved comparable performance to scikit-learn (RMSE: 0.20 vs 0.19, Accuracy: 100%)
+
+**Tech Stack:** Python, NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn
+
+---
+
+### Assignment 2: Decision Trees *(Coming Soon)*
+
+### Assignment 3: Random Forests *(Coming Soon)*
+
+### Assignment 4: Neural Networks *(Coming Soon)*
+
+### Assignment 5: CNNs *(Coming Soon)*
+
+### Assignment 6: Advanced Topics *(Coming Soon)*
+
+## Repository Structure
+```
+CS3735-Intro-Machine-Learning/
+├── README.md                    (this file)
+├── assignment-1/
+│   ├── README.md
+│   ├── notebooks/
+│   ├── visualizations/
+│   └── data/
+├── assignment-2/
+│   └── ...
+└── ...
+```
 
 ## Technologies Used
-- Python
-- scikit-learn
-- NumPy
-- Pandas
-- Matplotlib/Seaborn
-- Google Colab
 
-## Skills Demonstrated
-- Algorithm implementation from scratch
-- Data preprocessing and visualization
-- Hyperparameter tuning
-- Model evaluation and analysis
-- Working with various datasets
+- **Python 3.x** - Primary programming language
+- **NumPy** - Numerical computing and linear algebra
+- **Pandas** - Data manipulation and analysis
+- **Scikit-learn** - Machine learning algorithms and tools
+- **TensorFlow/PyTorch** - Deep learning frameworks
+- **Matplotlib & Seaborn** - Data visualization
+- **Google Colab** - Development environment
 
-## Future Enhancements
-I plan to add implementations of:
-- Bayesian learning approaches
-- Unsupervised learning algorithms
-- Deep learning techniques
+## Key Learnings
+
+Throughout this course, I've gained hands-on experience with:
+
+- Implementing ML algorithms from scratch to understand their inner workings
+- Comparing custom implementations with industry-standard libraries
+- Applying appropriate preprocessing techniques for different data types
+- Visualizing model performance and interpreting results
+- Debugging numerical issues in gradient-based optimization
+- Selecting appropriate models and hyperparameters for different tasks
+
+## How to Use This Repository
+
+Each assignment folder contains:
+- **README.md** - Detailed documentation of the assignment
+- **Notebooks** - Jupyter notebooks with code and analysis
+- **Visualizations** - Result plots and figures
+- **Data** - Datasets used (where applicable)
+
+To run any assignment:
+1. Navigate to the assignment folder
+2. Follow the instructions in that assignment's README
+3. Notebooks can be run in Google Colab or locally with Jupyter
+
+## Academic Integrity
+
+All assignments were completed individually in accordance with UNB's academic integrity policies. This repository is published after course completion for portfolio and educational purposes.
+
+## Contact
+
+**Course:** CS3735 - Introduction to Machine Learning  
+**Semester:** Winter 2024  
+**Institution:** University of New Brunswick
+
+---
+
+*This repository demonstrates practical machine learning skills including algorithm implementation, model evaluation, and result interpretation. All work represents individual effort and understanding of course material.*
