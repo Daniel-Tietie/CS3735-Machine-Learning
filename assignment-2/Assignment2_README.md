@@ -1,6 +1,6 @@
 # Assignment 2: Decision Trees and Random Forests
 
-**CS3735 - Introduction to Machine Learning | Winter 2025**
+**CS3735 - Introduction to Machine Learning | Winter 2024**
 
 ## Overview
 
@@ -144,5 +144,5 @@ Download the `.ipynb` files and open in Google Colab. The dataset loads directly
 ---
 
 **Course:** CS3735 - Introduction to Machine Learning  
-**Semester:** Winter 2025  
+**Semester:** Winter 2024  
 **Institution:** University of New Brunswick
