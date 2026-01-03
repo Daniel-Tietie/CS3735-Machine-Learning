@@ -48,7 +48,16 @@ Implementation of linear and logistic regression using both scikit-learn and cus
 
 ---
 
-### Assignment 2: Decision Trees *(Coming Soon)*
+### [Assignment 2: Decision Trees and Random Forests](./assignment-2/)
+Implementation of Decision Tree and Random Forest classifiers using both scikit-learn and custom implementations with feature subsampling.
+
+**Key Concepts:** Information gain, entropy, bootstrap sampling, feature subsampling, ensemble learning
+
+**Results:** Custom Random Forest achieved 92.85% accuracy (within 3.3% of sklearn's 96.15%)
+
+**Tech Stack:** Python, NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn
+
+---
 
 ### Assignment 3: Random Forests *(Coming Soon)*
 
